@@ -1,5 +1,5 @@
 <?php
-    include 'currencyconverter.php'; $access_token='yucixks88GKG6RmFHC3qwK8EuEY1CLq3oXAkJCUTyLIMxN7bq17SIMDHTibPiKMF4vBXgOgU2f9rZMFTjWBc1JcFcC/RJXVdXERvkmPo0GTOBfUBESQ8o7KLHiRdvY83uVCVDuGEmbSaUEt/vBOdNAdB04t89/1O/w1cDnyilFU=';
+    include 'currencyconverter.php'; $access_token='19xl/w6v2PuS4JXpSuMY1rlf8agWZcYsURFeVF9ud7Vr8O0GCnndmiGVdDE5acVA4PJIDnkTHR1GMivUMxJfvkE+iONtUPQibS03kbQTASWzSextWy8v5aRBxOVsIIrPSpJmBq2J9TpBOZrph8dfSQdB04t89/1O/w1cDnyilFU=';
     
     // Get POST body content
     $content = file_get_contents('php://input');
