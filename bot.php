@@ -1,5 +1,6 @@
 <?php
-    include 'currencyconverter.php'; $access_token='19xl/w6v2PuS4JXpSuMY1rlf8agWZcYsURFeVF9ud7Vr8O0GCnndmiGVdDE5acVA4PJIDnkTHR1GMivUMxJfvkE+iONtUPQibS03kbQTASWzSextWy8v5aRBxOVsIIrPSpJmBq2J9TpBOZrph8dfSQdB04t89/1O/w1cDnyilFU=';
+    include 'currencyconverter.php';
+    $access_token='19xl/w6v2PuS4JXpSuMY1rlf8agWZcYsURFeVF9ud7Vr8O0GCnndmiGVdDE5acVA4PJIDnkTHR1GMivUMxJfvkE+iONtUPQibS03kbQTASWzSextWy8v5aRBxOVsIIrPSpJmBq2J9TpBOZrph8dfSQdB04t89/1O/w1cDnyilFU=';
     
     // Get POST body content
     $content = file_get_contents('php://input');
@@ -50,11 +51,7 @@
                         ],
                         [
                             'type' => 'text',
-                            'text' => "พิมพ์จำนวนเงินเยนตามด้วย 'jpy' เพื่อแปลงเป็นเงินบาท"
-                        ],
-                        [
-                            'type' => 'text',
-                            'text' => "พิมพ์ จำนวนเงินบาทตามด้วย'thb' เพื่อแปลงเป็นเงินเยน"
+                            'text' => "พิมพ์จำนวนเงินเยนตามด้วย 'jpy' เพื่อแปลงเป็นเงินบาท\n. พิมพ์ จำนวนเงินบาทตามด้วย'thb' เพื่อแปลงเป็นเงินเยน\n1. new"
                         ]
                     ];
                 }
